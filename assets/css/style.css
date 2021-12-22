@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Condensed&display=swap");
+body {
+    font-family: "Acme", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+/*========= carousel ========*/
+
+.carousel {
+    margin-bottom: 2rem;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+    height: 30rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 30rem;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .carousel-inner {
+        min-height: 100%;
+        width: auto;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+/* ========== footer ============*/
+
+#footer {
+    height: 50px;
+    line-height: 50px;
+    background: #333;
+    color: #fff;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+}
+
+
+/* ======== styling wrap ========*/
+
+hr.daftar-mobil {
+    border-top: 1px solid white;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.wrap {
+    position: relative;
+    width: auto;
+    height: 2px;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+
+.wrap span {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #ddd;
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.list-harga p {
+    font-size: 15px;
+    font-weight: 200px;
+}
+
+.bg-indigo {
+    background-color: #6610f2;
+}
+
+.fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient( circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background: -webkit-radial-gradient( circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
